@@ -1,0 +1,31 @@
+{
+    "name": "magroski/diff",
+    "description": "A class containing a diff implementation",
+    "type": "library",
+    "keywords": [
+        "Diff"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Magroski",
+            "email": "magroski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Diff\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.10.0",
+        "object-calisthenics/phpcs-calisthenics-rules": "^3.1",
+        "roave/security-advisories": "dev-master",
+        "slevomat/coding-standard": "4.5",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
